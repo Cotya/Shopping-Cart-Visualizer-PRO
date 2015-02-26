@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+		<Cotya_CartAdmin>
+			<active>true</active>
+			<codePool>local</codePool>
+		</Cotya_CartAdmin>
+    </modules>
+</config>

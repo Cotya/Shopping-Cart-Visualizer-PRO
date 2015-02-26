@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<config>
+
+    <modules>
+        <Cotya_CartAdmin>
+            <version>0.1.0</version>
+        </Cotya_CartAdmin>
+    </modules>
+
+    <global>
+        <blocks>
+            <cartadmin>
+                <class>Cotya_CartAdmin_Block</class>
+            </cartadmin>
+        </blocks>
+    </global>
+
+    <admin>
+        <routers>
+            <adminhtml>
+                <args>
+                    <modules>
+                        <cartadmin before="Mage_Adminhtml">Cotya_CartAdmin_Adminhtml</cartadmin>
+                    </modules>
+                </args>
+            </adminhtml>
+        </routers>
+    </admin>
+
+    <adminhtml>
+        <layout>
+            <updates>
+                <cartadmin>
+                    <file>cotya/cartadmin.xml</file>
+                </cartadmin>
+            </updates>
+        </layout>
+    </adminhtml>
+
+</config>

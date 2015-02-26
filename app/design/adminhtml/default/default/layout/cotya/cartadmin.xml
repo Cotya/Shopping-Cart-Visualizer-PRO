@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+
+<layout>
+
+    <adminhtml_shoppingcarts_index>
+        <reference name="content">
+            <block type="cartadmin/adminhtml_carts" name="cartadmin" />
+        </reference>
+    </adminhtml_shoppingcarts_index>
+
+</layout>
